@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  --color-scrollbar-track: #1a1924;
+  --color-scrollbar-thumb: #141e35;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-thumb);
+  border-radius: 999px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--color-scrollbar-track);
+}
+
+body {
+  background-color: #0f172a;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto 5rem;
+  padding: 2rem;
+}
+
+header {
+  margin-top: 6.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #334155;
+}
+
+header h1 {
+  margin-top: 2.4rem;
+  font-size: 3rem;
+  color: #f1f5f9;
+}
+
+#quiz {
+  counter-reset: quiz-item;
+}
+
+.quiz-item {
+  margin-top: 2.4rem;
+  border-radius: 0.6rem;
+  border: 1px solid #475569;
+
+  overflow: hidden;
+}
+
+.quiz-item h3 {
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  color: #e2e8f0;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: #1e293b;
+}
+
+.quiz-item h3::before {
+  counter-increment: quiz-item;
+  content: counter(quiz-item);
+
+  background-color: #475569;
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+
+.quiz-item dl {
+  padding: 1.5rem 2.4rem;
+
+  display: grid;
+  gap: 0.8rem;
+}
+
+.quiz-item dl dt {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  letter-spacing: 0;
+  color: #e2e8f0;
+}
+
+input {
+  all: unset;
+  border: 1px solid #94a3b8;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+input:checked {
+  border: 1px solid #7cb81c;
+}
+
+input:checked::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: #a3e635;
+  border-radius: 50%;
+}
+
+#hits {
+  font-size: 1.3rem;
+  color: #0f172a;
+  width: 100%;
+  padding: 1.2rem;
+
+  text-align: center;
+  background-color: #a3e635;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
