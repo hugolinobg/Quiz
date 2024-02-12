@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto prático de uma Quiz utilizando IA para gerar array de perguntas con respostas certas.
 
-- [Acesse o projeto finalizado, online](https://hugolinobg.github.io/HorrorGame/)
+- [Acesse o projeto finalizado, online](https://hugolinobg.github.io/Quiz/)
 
 ## 🔖 Layout
 
