@@ -1,4 +1,7 @@
-<img src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg" alt="Logo NLW Expert">
+<p align="center">
+  <img src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg" alt="Logo NLW Expert" width="30%">
+</p>
+
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.</a>
@@ -13,7 +16,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img src=".github/preview.png" alt="projeto Quiz">
+  <img src=".github/preview.png" alt="projeto Quiz" width="55%">
 </p>
 
 <br>
